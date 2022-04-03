@@ -3,12 +3,12 @@ package com.company;
 public class Hero {
     private int heroHealth;
     private int heroDamage;
-    private String superHit;
+    private String heroSuperHit;
 
-    public Hero(int heroHealth, int heroDamage,String superHit) {
+    public Hero(int heroHealth, int heroDamage, String heroSuperHit) {
         this.heroHealth = heroHealth;
         this.heroDamage = heroDamage;
-        this.superHit = superHit;
+        this.heroSuperHit = heroSuperHit;
     }
 
     public int getHeroHealth() {
@@ -19,9 +19,7 @@ public class Hero {
         return heroDamage;
     }
 
-    public String getsuperHit() {
-        return superHit;
+    public String getHeroSuperHit() {
+        return heroSuperHit;
     }
-
-
-    }
+}
